@@ -4,10 +4,10 @@ from firecrawl import FirecrawlApp
 import google.generativeai as genai
 
 # Configure the generative AI model with your API key
-genai.configure(api_key="AIzaSyCgkY1sUoQwdwwWeurJAl5MNCC84sf1lwM")
+genai.configure(api_key="apikey")
 
 # Initialize Firecrawl app with API key
-app = FirecrawlApp(api_key="fc-0111e9af6990476e95530d0d35c31cf5")
+app = FirecrawlApp(api_key="apikey")
 
 # FastAPI app initialization
 fastapi_app = FastAPI()
